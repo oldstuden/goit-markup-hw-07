@@ -52,7 +52,6 @@ body.no-scroll {
   display: none;
 }
 .mobile-menu-open {
-  /* fill: #2e2f42; */
   background: transparent;
   border: transparent;
   padding: 0;
@@ -122,12 +121,11 @@ body.no-scroll {
   margin-bottom: 72px;
 }
 .list-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em;
   color: var(--text-color);
-  padding: 0 5px;
 }
 .list-title {
   font-weight: 500;
@@ -146,7 +144,6 @@ body.no-scroll {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
-  margin-right: 76px;
 }
 .logo span {
   color: var(--button-normal-color);
@@ -171,8 +168,8 @@ body.no-scroll {
   max-width: 480px;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 188px;
-  padding-top: 188px;
+  padding-bottom: 112px;
+  padding-top: 112px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -227,6 +224,9 @@ body.no-scroll {
 .properties-title {
   display: none;
 }
+.properties-list .list-text {
+  font-weight: 500;
+}
 .mobil-list-title {
   font-weight: 700;
   font-size: 36px;
@@ -268,7 +268,7 @@ body.no-scroll {
   margin-bottom: 8px;
 }
 .team-list .list-item {
-  max-width: 260px;
+  max-width: 264px;
   background-color: #fff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -308,12 +308,13 @@ body.no-scroll {
 }
 /* -------customers----- */
 .customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .brands-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 64px;
 }
@@ -435,7 +436,8 @@ body.no-scroll {
 
 .footer {
   background-color: var(--title-color);
-  padding: 100px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .footer-content {
   width: 264px;
@@ -520,6 +522,7 @@ body.no-scroll {
   border-radius: 4px;
   outline: transparent;
   margin-bottom: 16px;
+  color: var(--accent-color-back);
 }
 .footer-input::placeholder {
   font-size: 12px;
